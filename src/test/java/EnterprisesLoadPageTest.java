@@ -14,7 +14,7 @@ public class EnterprisesLoadPageTest {
     }
 
     @Test
-    void openEnterprisesPage(){
+    void openEnterprisesPageTest(){
         open("https://github.com");
         $(byTagAndText("button", "Solutions")).hover();
         $(byTagAndText("a", "Enterprises")).click();
